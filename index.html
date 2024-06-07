@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Seema</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFCDEA; /* لون الخلفية */
+            color: #86469C; /* لون النص الرئيسي */
+            font-size: 20px;
+            font-family: 'Cairo', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh; /* لجعل الارتفاع يغطي كامل الصفحة */
+        }
+        .header {
+            width: 100%;
+            text-align: center;
+            background-color: #FFCDEA;
+            color: #86469C; /* لون النص الرئيسي */
+            padding: 20px 0;
+            font-size: 40px; /* زيادة حجم الخط */
+            font-weight: bold; /* إضافة نمط غامق */
+            border-bottom: 2px solid #86469C; /* خط تحت العنوان */
+            box-shadow: 0 4px 2px -2px #000; /* إضافة ظل تحت العنوان */
+            position: relative;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* إضافة ظل للنص */
+        }
+        .header .date-time {
+            font-size: 16px;
+            color: #86469C; /* لون النص للتاريخ والوقت */
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            left: 10px;
+            display: flex;
+            justify-content: space-between;
+            text-shadow: 1px 1px 2px #BC7FCD; /* لون ظل جديد للنص */
+        }
+        .subheader {
+            font-size: 24px; /* حجم الخط للعنوان الفرعي */
+            color: #BC7FCD; /* لون النص للعنوان الفرعي */
+            margin-top: 10px;
+        }
+        .content {
+            max-width: 600px; /* أقصى عرض للمحتوى */
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            background-color: #FB9AD1; /* خلفية المحتوى */
+            color: #86469C; /* لون النص داخل المحتوى */
+            border-radius: 10px; /* زوايا دائرية */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف حول النص */
+        }
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.3s;
+        }
+        a:hover {
+            color: #FF6347; /* تغيير اللون عند التمرير */
+            transform: scale(1.1); /* تكبير الرابط عند التمرير */
+        }
+        .icon {
+            width: 40px; /* حجم شعار واتساب وشعار الفيسبوك */
+            height: 40px; /* حجم شعار واتساب وشعار الفيسبوك */
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .icon-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-link span {
+            margin-left: 10px; /* مسافة بين الشعار والنص */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="date-time">
+            <span id="date-time-left"></span>
+            <span id="date-time-right"></span>
+        </div>
+        English with Seema
+        <div class="subheader">
+            <a href="https://www.facebook.com/profile.php?id=61550237435001&locale=ar_AR" target="_blank" class="icon-link">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                <span>صفحتي على الفيسبوك</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <p><a href="https://www.facebook.com/share/p/bYcFNCTKpnYA1mJy/?mibextid=oFDknk" target="_blank">قواعد الكتاب لجميع الفروع</a></p>
+
+        <p><a href="https://www.facebook.com/share/p/rpYvGP8EC2KZc5rL/?mibextid=oFDknk" target="_blank">تعبيرات الأدبي والتجاري وللمهني والصناعي</a></p>
+
+        <p><a href="https://www.facebook.com/share/p/8d784gQfYCs9y3gW/?mibextid=oFDknk" target="_blank">تعبيرات العلمي</a></p>
+
+        <p><a href="https://www.facebook.com/share/p/WsiWzvtRGsEgAJdM/?mibextid=oFDknk" target="_blank">تعبيرات البلس</a></p>
+
+        <p><a href="https://www.facebook.com/share/p/6d2UF8TtWWnxM6NZ/?mibextid=oFDknk" target="_blank">ملف روميو وجولييت ف ١</a></p>
+
+        <p><a href="https://www.facebook.com/share/p/8fUyUZo9mCam3heR/?mibextid=oFDknk" target="_blank">روميو وجولييت ف٢</a></p>
+
+        <p><a href="https://drive.google.com/drive/mobile/folders/1J5Z4sruJVg5YKQkYDh_RW2egHwl8QmY8/1TRunDIXn9Dhwhmq3yFKeSRy1-TTHsulm?fbclid=IwZXh0bgNhZW0CMTEAAR3CFcEb6PrFM4v93rBK2z8ZE7KeZh-wpovvSF3mqCoXgHcm-vLHxZ641Xk_aem_AbX0xKva-Qfg0i1M6789OgAJjsYTDVGFcViAprQW0DfB6dFYoKKS1psG2SddW-EcZkILViaZ8Z_ifUvjGwlvF_q8&sort=13&direction=a" target="_blank">شرح مفردات البلس</a></p>
+
+        <p><a href="https://drive.google.com/drive/folders/1F5GHq9834seG1A4KlnCcboxeCnMfLqWQ" target="_blank">دوسيات التصنيف</a></p>
+
+        <p><a href="https://drive.google.com/drive/folders/1FWf8KGJIDpcJLwTMY3FjEY5ku2HyLcUP" target="_blank">دوسيات مراجعة مهمة</a></p>
+
+        <p><a href="https://drive.google.com/drive/folders/0B7oTcXqoniztUjloTzlaVjI2WXM?resourcekey=0-VNAnsgRoLNO3Mjtm7ERrjQ" target="_blank">امتحانات تجريبي ووزاري</a></p>
+
+        <p><a href="https://drive.google.com/file/d/1CbWi0OM2w1zhGP1qQP1jUQYyfeL2vYqT/view?usp=drivesdk" target="_blank">دوسيات بتساعدكم تدرسوا البلس</a></p>
+
+        <p><a href="https://drive.google.com/drive/folders/0B7oTcXqoniztZWVsOVI5SGhmWW8?resourcekey=0-_41J0uOHB-bgpSMKDVhPrw" target="_blank">امتحانات تجريبي بلس</a></p>
+        <p><a href="https://drive.google.com/drive/folders/14xHhjpIuC_IsfAcN30bzmSM20DMferoH" target="_blank">امتحانات تجريبي بلس (رابط آخر)</a></p>
+
+        <p class="icon-link">
+            <a href="https://chat.whatsapp.com/CKOGoBXafCKEB9Je9SIWc3" target="_blank">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                <span>مجموعة الواتس</span>
+            </a>
+        </p>
+    </div>
+
+    <script>
+        function updateDateTime() {
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2
